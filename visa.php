@@ -29,7 +29,7 @@
 			echo "cool</br>";
 		else 
 			echo "no cool";
-		  if(strlen($visa)!=16)
+		  if(strlen($visa)==16))
 		  {
 			$visa1=str_split($visa);
 			$cuenta=0;
