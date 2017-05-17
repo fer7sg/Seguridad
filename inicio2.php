@@ -33,7 +33,7 @@
 					<a href='prac7inicio.html'/>prac7</a></br>
 					<h2>Ejercicios</h2>
 					<a href='curpi.html'/>curp</a></br>
-					<a href='visainicio.html'/>visa</a></br>
+					<a href='visa.html'/>visa</a></br>
 					<a href='sorry.html'/>venegre</a></br>";
 			ECHO "</BODY>
 					</HTML>";
@@ -68,7 +68,7 @@
 					<a href='prac7inicio.html'/>prac7</a></br>
 					<h2>Ejercicios</h2>
 					<a href='curpi.html'/>curp</a></br>
-					<a href='visainicio.html'/>visa</a></br>
+					<a href='visa.html'/>visa</a></br>
 					<a href='pracinicio.html'/>venegre</a></br>";
 			ECHO "</BODY>
 					</HTML>";
