@@ -23,13 +23,13 @@
 		return $c;
 	}
 	$visa=$_POST['visa'];
-	if(isset($_COOKIE['usuario'])
+	if(isset($_COOKIE['usuario']))
 	   {
 		if(preg_match('/[0-9]/',$visa))
 			echo "cool</br>";
 		else 
 			echo "no cool";
-		  if(strlen($visa)==16))
+		  if(strlen($visa)==16)
 		  {
 			$visa1=str_split($visa);
 			$cuenta=0;
