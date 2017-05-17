@@ -23,6 +23,8 @@
 		return $c;
 	}
 	$visa=$_POST['visa'];
+	$che=strlen($visa);
+	$chec=substr($visa,($che-1),1);
 	if(isset($_COOKIE['usuario']))
 	   {
 		if(preg_match('/[0-9]/',$visa))
@@ -56,6 +58,10 @@
 
 			$res=mod($op,10);
 			echo "</br>".$res;
+			  if ($res==$chec)
+				echo "tu visa es correcta";
+			else 
+				echo "tu visa no es correcta";
 		  }
 	   }
 	   else
