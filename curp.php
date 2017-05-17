@@ -7,18 +7,18 @@
 	$c2=$_POST['codper1'];
 	
 	$n1=substr($nom,0,2);
-	echo $n1."</br>";
+	
 	$n21=strpos($nom," ");
-	echo $n21."</br>";
+	
 	$n2=substr($nom,($n21+1),1);
-	echo $n2."</br>";
+	
 	$n31=substr($nom,($n21+1));
-	echo $n31."</br>";
+	
 	$n32=strpos($n31," ");
-	echo $n32."</br>";
+	
 	$n3=substr($n31,($n32 +1),1);
-	echo $n3."</br>";
-	echo $n1.$n2.$n3."hola</br>";
+	
+	echo $n1.$n2.$n3."</br>";
 	
 	echo $fe."</br>";
 	$fe1=substr($fe,2,2);
@@ -34,7 +34,6 @@
 	$nomb1=substr($nom,1);
 	$com=str_split($nomb1);
 	$lel=count($com);
-	print_R($com);
 	$r="";
 	for($w=0;$w<$lel;$w++)
 	{
