@@ -19,7 +19,7 @@
 					<h2>Ejercicios</h2>
 					<a href='curpi.html'/>curp</a></br>
 					<a href='visainicio.html'/>visa</a></br>
-					<a href='pracinicio.html'/>venegre</a></br>";
+					<a href='sorry.html'/>venegre</a></br>";
 			ECHO "</BODY>
 					</HTML>";
 	}
