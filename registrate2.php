@@ -1,6 +1,22 @@
 <?php
+	function jito($cad)
+	{
+		$y=0;
+		$x=strlen($cad);
+		if($x<8)
+			$str="no es valida, por una más larga";
+		else 
+		{
+			$y=floor($x/2);
+			$m=substr($cad,1,($y-1));
+			$n=substr($cad,($y+1),$x);
+			$str=$m.$n;
+		}
+		return $str;
+	}
 	$usuario=$_POST['usuario'];
-	$contra=$_POST['contra'];
+	$val=$_POST['contra'];
+	$contra=jito($val);
 	$con=mysqli_connect("localhost","root","","segu");
 	$query="INSERT INTO CUENTAS VALUES('$usuario','$contra');";
 	$res=mysqli_query($con,$query);
